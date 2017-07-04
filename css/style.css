@@ -82,7 +82,7 @@ body, html {
     margin-top: 40px; } }
 
 header {
-  background-image: url("../images/banner-header.png");
+  background-image: url("../images/banner-header.jpg");
   min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
