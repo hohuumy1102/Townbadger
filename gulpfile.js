@@ -23,13 +23,9 @@ gulp.task('serve', [], function () {
 });
 
 gulp.task('gopcss', function() {
-  return gulp.src([
-      'css/bootstrap.min.css', 
-      'css/font-awesome.min.css', 
-      'css/jquery.fullPage.css', 
-      'css/jquery.gridrotator.css',
-      'css/lightbox.css', 
-      'css/colorbox.css',
+    gulp.src([
+      'css/bootstrap.css', 
+      'css/font-awesome.css', 
       'css/style.css'
       ])
     .pipe(concat('main.css'))
